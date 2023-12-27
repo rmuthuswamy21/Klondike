@@ -1,3 +1,5 @@
+Important Note: This is a project from CS3500 at Northeastern University. This repo will be checked by the Handins server and other professors for plagiarism at the risk of Academic Integrity and in violation of OSCCR. 
+
 Overview:
 This codebase implements the game Reversi, including a textual view and a playable GUI for the game.
 It is assumed that anyone using our code will know the basic rules of the game as outlined in the assignment spec if they plan to work with our implementation of the model. In terms of assumptions about extensibility, it is assumed that each model that implements the interface keeps its own board and rules. This means that the interface is open to any board that can be represented with two axes, and any set of rules that utilize tile placement. However, it is slightly out of scope to try to implement more than two players/types of tiles. Our interface theoretically could support this; however, you would have to change the enum used to represent the tiles of the game as right now there are only two.
